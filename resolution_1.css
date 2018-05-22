@@ -1,0 +1,74 @@
+
+html {
+    font-size: medium;
+    overflow-y:scroll;
+    height:vhe;
+    overflow:auto;
+}
+
+body,td {
+    font-size: medium;
+    overflow-y:scroll;
+    height:vhe;
+    overflow:auto;
+}
+
+
+
+
+
+@media (min-width:320px) {html,body,td {
+	
+        font-size: small;
+    } /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px) { html,body,td {
+	
+        font-size: small;
+    }/* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px) {html,body,td {
+	
+        font-size: small;
+    } /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px) {html,body,td {
+	
+        font-size: small;
+    } /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) {html,body,td {
+	
+        font-size: small;
+    } /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { html,body,td {
+	
+        font-size: small;
+    }/* hi-res laptops and desktops */ }
+
+
+
+
+@media (max-width: 300px) {
+    html,body,td {
+    	
+        font-size: small;
+    }
+}
+
+@media (min-width: 500px) {
+    html,body,td {
+    
+        font-size: small;
+    }
+}
+
+@media (min-width: 700px) {
+    html,body,td {
+    	
+        font-size: small;
+    }
+}
+
+@media (min-width: 1200px) {
+    html,body,td {
+    	
+        font-size: small;
+    }
+}
